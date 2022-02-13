@@ -28,7 +28,7 @@ class TreeNode {
     }
 }
 
-public class sortedArrayToBST {
+public class arr007_sortedArrayToBST {
 
     public static void main(String[] args) {
         int[] nums = {-10,-3,0,5,9};
