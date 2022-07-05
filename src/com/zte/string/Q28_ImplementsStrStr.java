@@ -16,8 +16,8 @@ public class Q28_ImplementsStrStr {
         System.out.println(i);
 
 
-        String s1 = "BBC ABCDAB ABCDABCDABDE";
-        String s2 = "ABCDABD";
+        String s1 = "abcabcabcabcabcabcabcabc";
+        String s2 = "abcabcabcabc";
         int[] next = kmpNext(s2);
         System.out.println(Arrays.toString(next));
         int index = kmpSearch(s1,s2,next);
