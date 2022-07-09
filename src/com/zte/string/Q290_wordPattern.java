@@ -65,7 +65,7 @@ public class Q290_wordPattern {
         }
         Map<Object, Integer> map = new HashMap<>();
         for (Integer i = 0; i < words.length; i++) {
-            if (map.put(pattern.charAt(i), i) != map.put(words[i], i)) {
+            if (!map.put(pattern.charAt(i), i).equals(map.put(words[i], i))) {
                 return false;
             }
         }
